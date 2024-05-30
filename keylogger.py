@@ -1,16 +1,3 @@
-""" This is a python program that does the following:
-1->Record the keystrokes and store it in text file
-    *******pynput.keyboard, key and listener
-2->Retrieve the computer information and store it in excel file
-    *******socket, platform and pandas
-3->Retrieve the clipboard information and store it in text file
-   ********win32clipboard
-4->Retrieve the google chrome history and store it in excel file
-   ********datetime, sqlite3 and pandas
-5->Take a screenshot of the computer screen in png format
-   ********pillow and imagegrab """
-
-
 from pynput.keyboard import Key, Listener #recording keystrokes
 import sqlite3 #get the data from a database
 import datetime #get the date
